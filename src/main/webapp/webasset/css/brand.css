@@ -1,0 +1,97 @@
+
+#header {height: auto;background-color: #fff;}
+.navbar-light .navbar-nav .nav-link {color: #1a385a;}
+/*a.dashboardBtn {border: 1px solid #1a385a;color: #1a385a;}*/
+
+
+/*Brnads CSS*/
+#top-section{height:520px;background-size: 100% 100%; background-color: #1a385a;justify-content: center;align-items: center;padding:8% 0;margin-top: 4%;}
+#top-section h1{text-align: center;color: #fff;text-transform: uppercase;}
+#top-section h3{text-align: center;color: #fff;text-transform: uppercase;}
+#top-section h4{text-align: center;color: #fff;}
+#top-section p{text-align: center;color: #fff;margin-top: 1%;}
+#top-section form{margin-top: 8%;}
+#top-section input{width: 25%;border-radius: 4px;padding: 1%;}
+#top-section input:focus{box-shadow:none;outline:0;}
+#top-section input:hover{}
+#top-section button{width: 23%;border-radius: 4px;padding: 1%;background: #fbdb24;transition: ease all .7s;border: 1px solid #fbdb24;}
+#top-section button:focus{box-shadow:none;outline:0;}
+#top-section button:hover{background:none;border: 1px solid #fbdb24;color: #fbdb24;}
+
+#work{padding:4% 0;}
+#work h2{text-transform: uppercase;text-align: center;font-size: 40px;margin-bottom: 20px;}
+.featureContent{padding: 10%;padding-bottom: 5%;}
+.featureContent h3{text-transform: uppercase;font-size: 32px;font-weight: bolder;margin-bottom: 20px;color: #1a385a;}
+.featureContent p{}
+.featureBx img{width:60%;}
+.featureBx{}
+ul.WorkList{list-style-type: none;padding: 0;}
+ul.WorkList li{font-family: "poppinsRegular";font-size: 15px;}
+ul.WorkList li i{color: #1a385a;}
+
+.featureLeft{border-left: 3px dashed #fcdb24;border-bottom: 3px dashed #fcdb24;}
+.featureLeft img{float:right;}
+.featureRight{border-right: 3px dashed #fcdb24;border-bottom: 3px dashed #fcdb24;}
+.featureRight img{float:left;}
+
+#advertise{background: #1a385a;padding:4% 0;}
+#advertise h2{color: #fff;text-transform: uppercase;text-align: center;font-size: 40px;margin-bottom: 3%;}
+.advertiseBx{text-align: center;padding: 5%;}
+.advertiseBx img{width: 40%;}
+.advertiseBx h3{color: #fff;text-transform: uppercase;padding: 6% 0;}
+.advertiseBx p{color: #fff;}
+
+#dashboard{padding: 4% 0;margin-bottom: 4%;}
+#dashboard h2{text-transform: uppercase;font-size: 40px;margin-bottom: 20px;}
+#dashboard p{font-size: 16px;text-align: justify;}
+#dashboard span{font-family: "poppinsRegular";font-size: 15px;}
+#dashboard span i{color: #fbdb24;}
+#dashboard img{width: 90%;margin-top: 25px;}
+
+#faq{padding:4% 0;}
+#faq h2{text-transform: uppercase;text-align: center;margin-bottom: 4%;font-size: 40px;}
+#faq button{color: #000;width: 100%;text-align: left;}
+#faq button i{float: right;}
+#faq button:hover{text-decoration: none;}
+#faq button:focus{outline: 0;box-shadow: none;text-decoration: none;}
+
+
+.fixed-top{background-color: #fff;border-bottom: 1px solid #fbdb24;}
+.roi-list{padding-left: 3%;}
+
+
+
+
+
+ /************* Responsive ******************/
+@media (max-width: 480px) {
+   #top-section input {width: 70%;display: block;margin: auto;margin-bottom: 2%;}
+   #top-section button {width: 70%;display: block;margin: auto;margin-bottom: 2%;}
+   .featureLeft img {float: auto;display: block;margin: auto;}
+   .featureRight img {float: auto;display: block;margin: auto;}
+   #dashboard img{position: relative;}
+}
+
+
+@media (max-width: 768px) {
+   #top-section input {width: 70%;display: block;margin: auto;margin-bottom: 2%;}
+   #top-section button {width: 70%;display: block;margin: auto;margin-bottom: 2%;}
+   #top-section{margin-top: 20%;}
+   .featureLeft img {float: unset;display: block;margin: auto;}
+   .featureRight img {float: unset;display: block;margin: auto;}
+   #dashboard img{position: relative;}
+   .navbar-nav {right: 16px;position: relative;}
+
+   a.dashboardBtn {margin-left: 15px;}
+
+}
+
+@media (max-width: 900px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+/************* End Responsive ******************/

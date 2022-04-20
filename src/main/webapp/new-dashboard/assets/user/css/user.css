@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "poppinsBold";
+    src: url("../../fonts/Poppins-Bold.ttf");
+}
+@font-face {
+    font-family: "poppinsRegular";
+    src: url("../../fonts/Poppins-Regular.ttf");
+}
+
+body{}
+body h1{font-family: "poppinsBold";}
+body h2{font-family: "poppinsBold";}
+body h3{font-family: "poppinsBold";}
+body h4{font-family: "poppinsRegular";}
+body a{font-family: "poppinsRegular";font-size: 14px;}
+body li{font-family: "poppinsRegular";font-size: 14px;}
+body label{font-family: "poppinsRegular";font-size: 14px;}
+body p{font-family: "poppinsRegular";font-size: 15px;}
+body input{font-family: "poppinsRegular";}
+body button{font-family: "poppinsRegular";}
+body text{font-family: "poppinsRegular";}
+body a:hover{text-decoration: none;}
+.padNone{padding:0;}
+.textRight{text-align:right;}
+.textLeft{text-align:left;}
+.padLeft{padding-left:0;}
+.padRight{padding-right:0;}
+
+#header{box-shadow: 0 5px 8px #d3d3d3;background: #fff;}
+nav.navbar.navbar-expand-lg.navbar-light {background: #fff;z-index: 9;}
+.navbar-light .navbar-nav .nav-link{color: #000;font-size: 16px;}
+.navbar-light .navbar-nav .nav-link:hover{color: #fcdb24;}
+span.liDeivder{color: #cbcbcb;margin: auto;height: 29px;}
+ul.navbar-nav.mr-auto{margin: auto;}
+a.dashboardBtn{border: 1px solid #000;border-radius:25px;padding:7% 44%;color: #000;}
+a.dashboardBtn:hover{color: #fcdb24;border: 1px solid #fcdb24;}
+img.logo{width:88%;}
+
+
+#footer{background:#fff;padding:2% 0;}
+#footer p{text-align:center;}
+
+
+
+/************* Responsive ******************/
+@media (max-width: 480px) {
+    .navbar-light .navbar-nav .nav-link{color: #1a385a;}
+    span.liDeivder{display:none;}
+    a.dashboardBtn {border: 1px solid #1a385a;padding: 2% 4%;color: #1a385a;}
+    ul.navbar-nav.mr-auto {margin-top: 3%;}
+}
+
+
+@media (max-width: 768px) {
+    .navbar-light .navbar-nav .nav-link{color: #1a385a;}
+    span.liDeivder{display:none;}
+    a.dashboardBtn {border: 1px solid #1a385a;padding: 2% 4%;color: #1a385a;}
+    ul.navbar-nav.mr-auto {margin-top: 3%;}
+}
+
+@media (max-width: 900px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+/************* End Responsive ******************/

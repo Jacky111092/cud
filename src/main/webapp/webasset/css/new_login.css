@@ -1,0 +1,147 @@
+
+
+
+/*.demo-content {
+
+}*/
+
+.signin-btn{
+   border: 0;
+   background: #001e5b;
+   color: #fff;
+   border-radius: 25px;
+   margin-bottom: 6%;
+   transition: ease all .7s;
+   width: 80%;
+   padding: 4% 0;
+   font-size: 16px;
+}
+.signin-btn:hover{
+    background-color: #fcdb24;color: #000;
+}
+
+.signup-btn{
+    border-radius:30px;
+    color: #fbdb24;
+    padding: 8px 40px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+}
+.signup-btn:hover{
+    color: #fff;
+}
+.divider{margin: 10% 0;}
+
+
+
+.form-input {
+    height: 45px;
+    background: none;
+    border: 0;
+    border-bottom: 1px solid #d3d3d3;
+    border-radius: 0;
+    text-align: center;
+}
+.form-input:focus {
+    border-bottom: 1px solid #1a385a;
+}
+
+.parent-div{
+    width: 100%;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    overflow: hidden;
+}
+.first-section{
+    padding: 50px 20px;
+    background-color: #fff;
+    border-radius: 20px 0px 0px 20px;
+}
+.first-section h1{
+    color: #001e5c;
+}
+.first-section input{font-size: 20px;}
+.second-section{
+    background-color:#001e5b;
+    padding: 23% 0;
+    color: #fff;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.second-section h2{
+    font-size: 33px;
+}
+.second-section h2 img{width: 100px;margin-top: -3%;}
+.second-section p{
+    font-size: 16px;
+}
+.second-section2{
+    background-color:#001e5c;
+    color: #fff;
+    border-radius: 0px 20px 20px 0px;
+    opacity: 0.8;
+    padding:19% 0;
+}
+.second-section2 h2{
+    font-size: 33px;
+}
+.second-section2 p{
+    font-size: 16px;
+}
+.form-section{
+    margin: 20px;
+}
+.inputs{
+    width: 55%;
+}
+.otp-box{margin: 25px 40px 0px;}    
+
+@media (max-width: 420px){
+ 
+.first-section{
+    padding: 10px;
+}
+.form-section{
+    margin: 0px;
+}
+.form-section a{
+    padding: 6px 4px;
+    font-size: 12px;
+}
+.inputs{
+    width: 60%;
+}
+.first-section h1{
+    font-size: 20px;
+}
+.second-section {
+    padding: 70px;
+    border-radius: 0px 0px 20px 0px;
+}
+.second-section h2{
+    font-size:24px;
+}
+.second-section p{
+    font-size:12px;
+}
+.second-section2 {
+
+    padding: 70px;
+    border-radius: 0px 0px 20px 0px;
+}
+.second-section2 h2{
+    font-size:24px;
+}
+.second-section2 p{
+    font-size:12px;
+}
+.signup-btn {
+    padding: 8px 30px;
+}
+.demo-content {
+   margin: 1px;
+}
+
+}

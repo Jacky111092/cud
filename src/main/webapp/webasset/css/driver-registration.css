@@ -1,0 +1,83 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+background-color: #1a385a;
+}
+
+.card-holder{
+width: 100vw;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+.card-holder h2,.card-holder h5{color: #1a385a;}
+
+#bohnilogo{position: relative;right: 48px;}
+.logout-btn{border: 1px solid #1a385a;color: #1a385a;}
+.logout-btn:hover{border: 1px solid #fbdb24;color: #fbdb24;}
+
+.card{
+background: #fff;
+padding: 40px;
+width: 80%;
+max-width: 80%;
+box-shadow: 5px 10px 10px #484848;
+/*text-align: center;*/
+
+}
+.form-area{
+width: 100%;
+}
+.form-control{
+background-color: #F8F8F8;
+border-radius: 5px;
+border: none;
+
+}
+select.form-control{border: none;outline: none;}
+.form-control:focus {
+border-color: #E8E8E8;
+-webkit-box-shadow: none;
+box-shadow: none;
+background-color: #F8F8F8;
+
+}
+.btn-register{
+border: 1px solid #1a385a;
+border-radius: 5px;
+background-color: #1a385a;
+color: #fff;
+}
+.btn-register:hover{
+border: 1px solid #1a385a;
+background-color: #fff;
+color: #1a385a;
+}
+.btn-register:focus .btn-register:active{
+border: 1px solid #1a385a;
+background-color: #fff;
+color: #1a385a;
+
+}
+.card-body{
+padding-left: 6%;
+}
+
+.custom-input{border: 1px solid #dad4d4;border-radius: 5px;padding: 4px;width: 100%;}
+
+.edit-btn{color: #000;padding: 0px 10px;}
+
+
+/*
+.select2-container--default.select2-container--focus .select2-selection--multiple{
+  background-color: #F8F8F8;
+    border: none;
+    height: 44px;
+}*/

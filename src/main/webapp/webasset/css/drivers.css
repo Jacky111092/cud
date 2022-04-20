@@ -1,0 +1,102 @@
+
+#header {height: auto;background-color: #fff;}
+.navbar-light .navbar-nav .nav-link {color: #1a385a;}
+
+a.DriverRegBtn {font-size: 20px;color: #021e5c;padding: 10px 24px;letter-spacing: 1px;
+      /*padding: .8% 2%;
+    color: #1a385a;*/
+    cursor: pointer;
+    opacity: 0.9;
+    position: fixed;
+    bottom: 45px;
+    right: 35px;
+    z-index: 11;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 8px #afafaf;}
+a.DriverRegBtn:hover {color: #fff;background-color: #1a385a;}
+
+.fixed-top{background-color: #fff;border-bottom: 1px solid #fbdb24;}
+#top-section{height:520px;background-color: #1a385a;justify-content: center;align-items: center;padding:3% 0;margin-top:4%;background:url('../img/driveWithUs.jpg');background-size: 100% 100%;background-attachment: fixed;}
+#top-section h1{color: #fff;margin-bottom: 4%;}
+#top-section img{width:100%;display: block;float: left;margin-top: 6%;}
+#top-section ul{list-style-type:none;padding:0;}
+#top-section ul li{font-family: "poppinsBold";color: #fff;font-size: 20px;line-height: 50px;}
+#top-section ul li i{color: #fff;width: 40px;height: 40px;font-size: 14px;text-align: center;border: 1px solid;border-radius: 50%;line-height: 28px;padding: 1%;margin-right: 1%;}
+#top-section h4{color: #fff;margin-top: 10%;}
+
+#becomeDriver{padding:4% 0;}
+#becomeDriver h2{text-transform: uppercase;text-align: center;font-size: 40px;margin-bottom: 5%;}
+.advertiseBx{text-align: center;padding: 5%;}
+.advertiseBx img{width:30%;}
+.advertiseBx h3{padding-top: 50px;color: #1a385a;font-size: 20px;}
+.numberBx{}
+.numberBx h4{font-family: "poppinsBold";color: #1a385a;font-size: 36px;font-weight: bold;letter-spacing: 2px;margin: 30px 0px;}
+.numberBx p{color: #fff;}
+.numberBx input{text-align: center;display: block;margin: auto;margin-bottom:1%;font-family: "poppinsRegular";}
+.numberBx input:focus{box-shadow: none;border: 1px solid #fcdb24;}
+.numberBx button{border-radius: 4px;background: #fbdb24;transition: ease all .7s;border: 1px solid #fbdb24;display: block;margin: auto;}
+.numberBx button:focus{box-shadow: none;outline:0;}
+.numberBx button:hover{background:none;border: 1px solid #fbdb24;color: #fbdb24;}
+.numberBx img{width: 100%;}
+
+.left-drive{padding: 50px 0px;}
+.driver-form{margin-top: 115px;}
+
+#steps{padding:4% 0;background:#001e5b;}
+#steps h2{text-transform: uppercase;text-align: center;margin-bottom: 4%;font-size: 40px;color: #fff;}
+#steps img{width: 100%;}
+
+#earn{padding:2% 0;}
+#earn h2{text-transform: uppercase;text-align: center;margin-bottom: 4%;font-size: 40px;}
+#earn p{float: left;margin-bottom: 3%;}
+#earn p span{display: block;position: relative;float: left;}
+#earn p span.iconWala{width: 6%;}
+#earn p span.contentWala{width: 92%;}
+#earn p span i{color: #fcdb24;font-size: 18px;width: 30px;height: 30px;border: 1px solid;border-radius: 50%;text-align: center;line-height: 30px;}
+#earn span.listWala{display: block;position: relative;width: 100%;font-weight: bold;letter-spacing: 2px;line-height: 40px;}
+#earn span.listWala i{border: 0;color: #fbdb24;font-size: 20px;width: 20px;}
+/*.list-points{padding: 35px 30px;background-color: #fff;border: 1px solid #00000026;border-radius: 10px;box-shadow: 5px 5px 10px 5px #3c23231f;}*/
+
+.amtBx{border: 1px solid #ededed;box-shadow: 0 5px 8px #d3d3d3;display: block;position: relative;overflow: hidden;padding: 10%;background: #fcdb24;width:80%;margin: auto;border-radius: 5px;margin-bottom: 3%;}
+.amtBx h4{font-family: "poppinsBold";font-size: 30px;}
+.amtBx h4 span{font-family: "poppinsRegular";font-size: 14px;}
+.amtBx h5{font-family: "poppinsRegular";font-size: 17px;}
+.amtBx img{position: absolute;top: -3%;right: -2%;width: 100px;}
+.contentWala strong{font-size: 18px;letter-spacing: 1px;}
+
+#faq{padding:4% 0;}
+#faq h2{text-transform: uppercase;text-align: center;margin-bottom: 4%;font-size: 40px;}
+#faq button{color: #000;width: 100%;text-align: left;}
+#faq button i{float: right;color: #1a385a;}
+#faq button:hover{text-decoration: none;}
+#faq button:focus{outline: 0;box-shadow: none;text-decoration: none;}
+
+.accordion{box-shadow: 5px 5px 10px 5px #3c23231f;}
+
+
+
+/************* Responsive ******************/
+@media (max-width: 480px) {
+   
+}
+
+@media (max-width: 768px) {
+   
+   #top-section{margin-top: 20%;}
+   #earn p span.iconWala {width: 10%;}
+   .navbar-nav {right: 16px;position: relative;}
+   a.dashboardBtn {margin-left: 15px;}
+   .driver-form{margin: 10px 0px;}
+}
+
+@media (max-width: 900px) {
+
+}
+
+@media (max-width: 1200px) {
+
+}
+
+/************* End Responsive ******************/

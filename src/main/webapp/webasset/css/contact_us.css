@@ -1,0 +1,35 @@
+
+#header {height: auto;background-color: #fff;}
+.navbar-light .navbar-nav .nav-link {color: #1a385a;}
+/*a.dashboardBtn {border: 1px solid #1a385a;color: #1a385a;}*/
+
+#top-section{height:520px;background-image: url("../img/contactBanner.jpg");justify-content: center;align-items: center;padding:10% 0;margin-top:4%;}
+ #top-section h1{text-align: center;text-transform: uppercase;color: #fff;}
+
+.fixed-top{background-color: #fff;border-bottom: 1px solid #fbdb24;}
+
+#con{padding:5% 0;}
+#con h2{}
+#con p{padding: 6% 0;}
+#con ul{list-style-type: none;padding: 0;}
+#con ul li{float: left;padding-right: 5%;}
+#con ul li a{}
+#con ul li a i{font-size: 22px;color: #000;}
+#con ul li a i:hover{color: #001e5b;}
+.formBx{}
+ .formBx label{font-family: "poppinsRegular";font-weight: bold;font-size: 14px;color: #1a385a;}
+ .formBx input{font-family: "poppinsRegular";font-size: 14px;margin-bottom: 3%;border: 1px solid #d3d3d3;border-radius: 0;}
+ .formBx input:focus{box-shadow:none;outline: 0;border: 1px solid #fcdb24;}
+ .formBx textarea{font-family: "poppinsRegular";font-size: 14px;margin-bottom: 3%;border: 1px solid #d3d3d3;border-radius: 0;height: 150px;}
+ .formBx textarea:focus{box-shadow:none;outline: 0;border: 1px solid #fcdb24;}
+ .formBx button{width:40%;background: #fcdb24;border: 1px solid #fcdb24;transition: ease all .7s;}
+ .formBx button:focus{box-shadow:none;outline: 0;}
+ .formBx button:hover{border: 1px solid #1a385a;background:#1a385a;color:#fcdb24;}
+
+
+@media (max-width: 480px) {
+
+	#top-section{margin-top: 20%;}
+    .navbar-nav {right: 17px;position: relative;}
+	a.dashboardBtn {margin-left: 15px;}
+}

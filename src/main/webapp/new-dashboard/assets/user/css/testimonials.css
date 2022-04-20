@@ -1,0 +1,91 @@
+#testi{padding: 4% 0;background-color: #fbdb24;}
+#testi h3{text-align: center;}
+#testi h2{color: #1a385a;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+}
+.testimonial{
+    margin: 30px 30px 30px 30px;
+    text-align: center;
+    position: relative;
+}
+.clientLogo img{width: 100px;}
+.testimonial .description{
+    padding: 30px;
+    margin-bottom: 75px;
+    border-left: 1px solid #000;
+    font-size: 15px;
+    color: #000;
+    line-height: 33px;
+    position: relative;
+}
+.testimonial .description:before,
+.testimonial .description:after{
+    content: "";
+    width: 20%;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.testimonial .description:after{
+    top: auto;
+    bottom: 0;
+}
+.testimonial .title{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    /*text-transform: uppercase;*/
+    letter-spacing: 1px;
+    /*margin: 0 0 15px 0;*/
+    position: relative;
+}
+.testimonial:before,
+.testimonial .title:before{
+    content: "";
+    width: 1px;
+    height: 50px;
+    background: #000;
+    margin: 0 auto;
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+}
+.testimonial .title:before{ top: -80px; }
+.testimonial .pic{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+}
+.owl-theme .owl-controls{ margin-top: 0; }
+.owl-theme .owl-controls .owl-page span{
+    width: 10px;
+    height: 10px;
+    border-radius: 0;
+    background: #000;
+    outline: 2px solid #000;
+    outline-offset: 2px;
+    margin-right: 8px;
+    opacity: 0.7;
+    transition: all 0.3s ease 0s;
+}
+.owl-theme .owl-controls .owl-page.active span{
+    background: #747474;
+    outline: 2px solid #747474s;
+}
+
+
+@media (max-width: 480px) {
+
+    #testi h2{font-size: 25px;}
+
+}
